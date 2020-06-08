@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+.FancyBorder {
+  padding: 10px 10px;
+  border: 10px solid;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.FancyBorder-blue {
+  border-color: blue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Dialog-title {
+  margin: 0;
+  font-family: sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Dialog-message {
+  font-size: larger;
 }
 
-.App-link {
-  color: #61dafb;
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.SplitPane {
+  width: 100%;
+  height: 100px;
+}
+
+.SplitPane-left {
+  float: left;
+  width: 30%;
+  height: 100%;
+}
+
+.SplitPane-right {
+  float: left;
+  width: 70%;
+  height: 100%;
+}
+
+.Contacts {
+  width: 100%;
+  height: 100%;
+  background: lightblue;
+}
+
+.Chat {
+  width: 100%;
+  height: 100%;
+  background: pink;
 }

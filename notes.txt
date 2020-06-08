@@ -1,0 +1,8 @@
+https://react.docschina.org/docs
+
+
+通过问自己以下三个问题，你可以逐个检查相应数据是否属于 state：
+
+该数据是否是由父组件通过 props 传递而来的？如果是，那它应该不是 state。
+该数据是否随时间的推移而保持不变？如果是，那它应该也不是 state。
+你能否根据其他 state 或 props 计算出该数据的值？如果是，那它也不是 state。
